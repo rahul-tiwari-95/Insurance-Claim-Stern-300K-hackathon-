@@ -26,8 +26,8 @@ class PersonalDetails extends Component{
                 />
             </Form.Field>
             <Form.Field>
-                <label>Due of Request:   </label>
-                <input placeholder='Due of Request'
+                <label>Description of Request:   </label>
+                <input placeholder='Description of Request'
                 onChange={this.props.handleChange('DORequest')}
                 defaultValue={values.DORequest}
                 />
