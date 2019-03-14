@@ -72,7 +72,7 @@ class Agent extends Component{
                     <th>Claim Action</th>
                 </tr>
                 {this.state.posts.map(function(user, i){
-                        return <tr> {loadWorkflow = i}
+                        return <tr> 
                                     <td key={i}><ul><li>{user.firstName}</li></ul></td>
                                     <td key={i}>{user.phoneNumber}</td>
                                     <td key={i}>{user.email}</td>
